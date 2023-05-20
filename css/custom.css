@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #f3f3ef;
 }
 
 ul {
@@ -76,6 +77,13 @@ ul {
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.1s;
   }
+  .header {
+    height: 5rem;
+  }
+  .nav_toggle,
+  .nav-logo {
+    margin-top: 1rem;
+  }
 }
 
 .nav-list {
@@ -101,6 +109,7 @@ ul {
   font-size: 1.5rem;
   cursor: pointer;
   margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 /* SHOW MENU */
 .show-menu {
@@ -123,7 +132,7 @@ ul {
   }
 }
 
-/* medium device */
+/* medium to large device */
 
 @media screen and (min-width: 768px) {
   .container {
