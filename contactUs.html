@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jukti Website</title>
+  <!-- ------Bootstrap CSS link----- -->
+  <link rel="stylesheet" href="/css/main.min.css" />
+  <!-- ------GOOGLE FONTS------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Trispace&display=swap"
+    rel="stylesheet" />
+  <!-- -------- icon ------ -->
+  <script src="https://kit.fontawesome.com/6f6e8e1141.js" crossorigin="anonymous"></script>
+  <!-- ------CSS link----- -->
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/contactUs.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-navy">
+    <div class="container-md">
+      <img src="/img/jukti_logo.png" alt="Jukti_logo" id="jukti_logo" />
+      <a class="navbar-brand text-orange fs-2 fw-bold ms-2 me-auto" href="#">JUKTI <span class="fs-6">-The Official Club
+          of CSE</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" aria-current="page" href="#"><i
+                class="d-inline d-lg-none fa-solid fa-house me-2" style="color: #f7f6ee"></i>
+              Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="#"><i class="d-inline d-lg-none fa-solid fa-calendar-check me-2"
+                style="color: #f7f6ee"></i>
+              Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="#"><i class="d-inline d-lg-none fa-solid fa-user-pen me-2"
+                style="color: #f7f6ee"></i>
+              Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="#"><i class="d-inline d-lg-none fa-solid fa-users me-2"
+                style="color: #f7f6ee"></i>
+              About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-orange fs-5 me-3" href="#"><i
+                class="d-inline d-lg-none fa-solid fa-phone me-2" style="color: #f7f6ee"></i>
+              Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Form -->
+  <div class="parent m-4">
+    <div class="child1 bg-orange w-75">
+      <div style="background-color: #eee; width: 92.5%;" class="toResponse h-75">
+        <div class="position-relative">
+          <h5 class="text-accent position-absolute top-0 start-50 translate-middle-x"
+            style="margin-top: 7px; width: 51%">
+            Feel free to contact us with any questions or concerns you may have.
+          </h5>
+        </div>
+        <div class="mt-5 ms-2">
+          <h6 class="opacity-75">Leave your query</h6>
+        </div>
+        <div>
+          <div class="formContainer ms-2 me-4">
+            <form method="post">
+              <div class="mt-3 mb-4">
+                <input type="text" class="form-control border-accent" id="name" name="name" placeholder="Name" required>
+              </div>
+              <div class="mb-4">
+                <input type="text" class="form-control border-accent" id="stuID" name="stuID" placeholder="Student ID" required>
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control border-accent" id="email" name="email" placeholder="Email ID" required>
+              </div>
+              <div class="mb-4">
+                <input type="text" class="form-control border-accent" id="dept" name="dept" placeholder="Department" required>
+              </div>
+              <div class="mb-4">
+                <input type="text" class="form-control border-accent" id="subj" name="subj" placeholder="Subject" required>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control border-accent" id="query" name="query" placeholder="Query" required></textarea>
+              </div>
+              <button type="submit" name="submit" class="formButton btn btn-dark">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #eee;" class="child2 w-25">
+      <div class="bg-orange h-75 toResponse" style="width: 90%;">
+        <div style="background-color: #eee;" class="grandchild1 text-orange">
+          <h3>Contact us</h3>
+        </div>
+        <div class="grandchild2" style="margin-top: 35%; margin-left: 2%;">
+          <div>
+            <h6><i>You may also find us here</i></h6>
+          </div>
+          <div>
+            <a class="m-1" href="mailto:jukti.iub@gmail.com" target="_blank"><img src="icons/gmail.png" alt=""></a>
+            <a class="m-1" href="https://www.linkedin.com/company/jukti-iub/" target="_blank" ><img src="icons/linkedin.png" alt=""></a>
+            <a class="m-1" href="https://www.facebook.com/jukti.cse.iub" target="_blank"><img src="icons/facebook.png" alt=""></a>
+            <a class="m-1" href="https://www.instagram.com/jukti.official/" target="_blank"><img src="icons/instagram.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS link -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- --------Custom JS file--- -->
+  <script src="/app.js"></script>
+</body>
+
+</html>
