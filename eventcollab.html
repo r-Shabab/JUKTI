@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jukti Website</title>
+    <!-- ------Bootstrap CSS link----- -->
+    <link rel="stylesheet" href="/css/main.min.css" />
+    <link rel="stylesheet" href="css\upevent.css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\pastevent.css">
+    <link rel="stylesheet" href="css\owl.css">
+    <link rel="stylesheet" href="css\eventcollab.css">
+    <!-- ------GOOGLE FONTS------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Trispace&display=swap"
+      rel="stylesheet"/>
+    <!-- -------- icon ------ -->
+    <script
+      src="https://kit.fontawesome.com/6f6e8e1141.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ------CSS link----- -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-navy">
+      <div class="container-md">
+        <img src="/img/jukti_logo.png" alt="Jukti_logo" id="jukti_logo" />
+        <a class="navbar-brand text-orange fs-2 fw-bold ms-2 me-auto" href="#"
+          >JUKTI <span class="fs-6">-The Official Club of CSE</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3"
+                aria-current="page"
+                href="#"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-house me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-orange fs-5 me-3" href="#"
+                ><i class="d-inline d-lg-none fa-solid fa-calendar-check me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="#"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-user-pen me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="#"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-users me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="#"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-phone me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<main>
+    <section id="carousel-section">
+        <div class="container-fluid bg-light">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 text-center">
+              <div id="eventsSubNavbar" class="sub-navbar">
+                <!-- Content for the Events sub-navbar -->
+                <ul class="nav custom-tab flex-column flex-sm-row justify-content-center" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link  active show small-text text-sm-center text-lg-start active text-orange" id="p-events" data-toggle="tab" href="#home"
+                      role="tab" aria-controls="home" aria-selected="false">Past Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small-text text-sm-center text-lg-start" id="u-events" data-toggle="tab" href="#profile" role="tab"
+                      aria-controls="profile" aria-selected="true">Upcoming Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small-text text-sm-center text-lg-start" id="contact-tab" data-toggle="collab" href="#contact" role="tab"
+                      aria-controls="contact" aria-selected="false">Event Collaboration</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <section class="section contribution" data-section="section5">
+    <div class="col-md-5">
+        <div class="right-content">
+          <div class="top-content">
+            <h6>Register your free account and <em>get immediate</em> access to online courses</h6>
+          </div>
+          <form id="contact" action="" method="get">
+            <div class="row">
+              <div class="col-md-12">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Your Phone Number" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Get it now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+</section>
+</body>
+</html>
