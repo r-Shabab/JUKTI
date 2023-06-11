@@ -28,3 +28,18 @@
 #jukti_logo {
   width: 2rem;
 }
+
+/* FOOTER */
+.quick-links li {
+  margin-bottom: 8px;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #d66000;
+}

@@ -1,24 +1,27 @@
 /* events */
 .nav.custom-tab {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav.custom-tab .nav-link {
-    color: black;
-    font-weight: bold;
-    font-size: large;
-  }
-
- /* Coming Soon */
-
- section.coming-soon {
-  background-color: #f7f7f7;
-  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
+.nav.custom-tab .nav-link {
+  color: #081420;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sub-navbar .nav-link:hover {
+  color: #d66000;
+}
+
+/* Coming Soon */
+
+section.coming-soon {
+  background-color: #f7f6ee;
+  padding: 30px 0px;
+}
 
 section.coming-soon .continer .counter div {
   display: inline-block;
@@ -45,154 +48,8 @@ section.coming-soon .continer h4 em {
   }
 }
 
-section.coming-soon .continer .counter .days,
-section.coming-soon .continer .counter .hours,
-section.coming-soon .continer .counter .minutes,
-section.coming-soon .continer .counter .seconds {
-  width: 22%;
-  height: 140px;
-  float: left;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-@media screen and (max-width: 992px) {
-  section.coming-soon .continer .counter .days,
-  section.coming-soon .continer .counter .hours,
-  section.coming-soon .continer .counter .minutes,
-  section.coming-soon .continer .counter .seconds {
-    font-size: 26px;
-  }
-
-  section.coming-soon .continer .counter .days .value,
-  section.coming-soon .continer .counter .hours .value,
-  section.coming-soon .continer .counter .minutes .value,
-  section.coming-soon .continer .counter .seconds .value {
-    margin-top: 5px !important;
-  }
-
-  section.coming-soon .continer .counter span {
-    font-size: 14px !important;
-  }
-}
-
-section.coming-soon .continer .counter .days,
-section.coming-soon .continer .counter .hours,
-section.coming-soon .continer .counter .minutes {
-  margin-right: 4%;
-}
-
-section.coming-soon .continer .counter .days .value,
-section.coming-soon .continer .counter .hours .value,
-section.coming-soon .continer .counter .minutes .value,
-section.coming-soon .continer .counter .seconds .value {
-  margin-top: 10px;
-  display: block;
-  width: 100%;
-}
-
-section.coming-soon .continer .counter span {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #f5a425;
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin-top: 0px;
-  display: block;
-}
-
-section.coming-soon .right-content {
-  margin-left: 5px;
-}
-
-@media screen and (max-width: 767px) {
-  section.coming-soon .right-content {
-    margin-top: 20px;
-    margin-left: 0px;
-  }
-}
-
-section.coming-soon .top-content {
-  margin-bottom: -8px;
-}
-
-section.coming-soon .top-content h6 {
-  font-size: 14px;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 40px;
-  text-align: center;
-  line-height: 24px;
-}
-
-section.coming-soon .top-content h6 em {
-  font-style: normal;
-  font-weight: 600;
-}
-
-section.coming-soon form {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 60px 40px;
-  width: 100%;
-  text-align: center;
-}
-
-section.coming-soon form input {
-  width: 100%;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 0px;
-  border: none;
-  outline: none;
-  color: #333;
-  font-size: 13px;
-  margin-bottom: 20px;
-  letter-spacing: 0.5px;
-}
-
-section.coming-soon form input:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-section.coming-soon form::placeholder {
-  color: #333;
-}
-
-section.coming-soon form input::placeholder {
-  color: #333;
-}
-
-section.coming-soon form input::placeholder {
-  color: #333;
-}
-
-section.coming-soon form button {
-  margin-top: 10px;
-  background-color: #f5a425;
-  color: #fff;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  padding: 12px 20px;
-  display: inline-block;
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
 /* speakers */
 .serction_title_large h3 {
-  font-size: 80px;
-  font-weight: 700;
   color: #f5a425;
   display: inline-block;
   position: relative;
@@ -238,11 +95,9 @@ section.coming-soon form button {
   overflow: hidden;
 }
 
-
 .speakers_area .single_speaker .speaker_thumb img {
   width: 100%;
 }
-
 
 .speakers_area .single_speaker .speaker_thumb .hover_overlay {
   position: absolute;
@@ -250,7 +105,7 @@ section.coming-soon form button {
   height: 100%;
   left: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(247, 218, 185, 0.5);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -261,7 +116,6 @@ section.coming-soon form button {
   transform: translateY(80%);
   opacity: 0;
 }
-
 
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon {
   position: absolute;
@@ -274,7 +128,6 @@ section.coming-soon form button {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
 
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a {
   width: 50px;
@@ -290,15 +143,18 @@ section.coming-soon form button {
   display: inline-block;
   line-height: 50px;
   font-size: 17px;
-  color: #FF0000;
+  color: #081420;
   margin: 0 7px;
 }
 
-
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+.speakers_area
+  .single_speaker
+  .speaker_thumb
+  .hover_overlay
+  .social_icon
+  a:hover {
   color: #fff;
 }
-
 
 .speakers_area .single_speaker .speaker_name h3 {
   font-size: 26px;
@@ -307,14 +163,12 @@ section.coming-soon form button {
   margin-bottom: 7px;
 }
 
-
 .speakers_area .single_speaker .speaker_name p {
   margin-bottom: 0;
   font-size: 16px;
-  color: #FF0000;
+  color: #ff0000;
   font-weight: 400;
 }
-
 
 .speakers_area .single_speaker:hover .hover_overlay {
   -webkit-transform: translateY(0);
@@ -323,7 +177,6 @@ section.coming-soon form button {
   transform: translateY(0);
   opacity: 1;
 }
-
 
 .speakers_area .single_speaker:hover .speaker_thumb .social_icon {
   -webkit-transform: scaleX(1);
@@ -365,13 +218,13 @@ section.coming-soon form button {
 }
 .event_area .single_speaker .speaker-name .heading span {
   font-size: 26px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-weight: 500;
 }
 .event_area .single_speaker .speaker-name .heading .time {
   font-size: 16px;
   font-weight: 500;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 .event_area .single_speaker p {
   color: #707070;
@@ -380,7 +233,7 @@ section.coming-soon form button {
 }
 
 .light_background {
-  background-color: #f8f9fa;
+  background-color: #f7f6ee;
 }
 .speaker_thumb {
   position: relative;
@@ -399,7 +252,7 @@ section.coming-soon form button {
 
 .speaker_details {
   padding: -8px;
-  background-color: #f8f9fa;
+  background-color: #f7f6ee;
 }
 
 .speaker_name h3 {
@@ -412,4 +265,25 @@ section.coming-soon form button {
   font-size: 16px;
   font-weight: bold;
   color: #777777;
+}
+
+.speaker_thumb img {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* FOOTER */
+.quick-links li {
+  margin-bottom: 8px;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #d66000;
 }
