@@ -43,3 +43,26 @@
 .quick-links a:hover {
   color: #d66000;
 }
+
+/* collab */
+.collab-item{
+  padding: 40px,30px;
+  box-shadow: 0 0 9px rgba (0,0,0 .6);
+}
+.collab-item i{
+  font-size: 30px;
+  margin: 10px;
+}
+.collab-item h4{
+  margin-bottom: 10px;
+}
+.collab-item hr{
+  width: 46px;
+  height: 3px;
+  background-color: orange;
+  margin: 0 auto;
+  border: nome;
+}
+.collab-item p{
+   padding: 30px;
+}
