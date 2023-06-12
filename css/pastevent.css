@@ -16,7 +16,12 @@ p {
     font-size: 13px;
     line-height: 22px;
 }
-
+.item{
+    height: 400px;
+}
+.down-content{
+    height: 400px;
+}
 /* Section Heading */
 .section-heading {
     text-align: center;
@@ -102,9 +107,11 @@ section.events .item .down-content img {
 
 section.events .item .down-content .text-button-pay,
 section.events .item .down-content .text-button-free {
-    float: right;
-    display: block;
-    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1.2rem;
+    margin-right: 1.8rem;
 }
 
 section.events .item .down-content .text-button-pay a {
@@ -112,10 +119,7 @@ section.events .item .down-content .text-button-pay a {
     font-size: 13px;
 }
 
-section.events .item .down-content .text-button-free a {
-    color: #7a7a7a;
-    font-size: 13px;
-}
+
 
 /* Owl Carousel */
 section.events .owl-carousel .owl-nav {
@@ -140,7 +144,7 @@ section.events .owl-carousel button.active {
 
 /* Video */
 
-section.video {
+/* section.video {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
@@ -247,4 +251,4 @@ section.video .left-content .main-button {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-}
+} */
