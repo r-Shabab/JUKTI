@@ -25,6 +25,7 @@ const database = getDatabase(app);
 const advisor = ref(database, "Board");
 addFaculty();
 addAdvisor();
+addExecutive();
 function addAdvisor() {
   let advise = document.getElementById("advisor");
   onValue(advisor, function (snapshot) {
@@ -97,5 +98,41 @@ function addFaculty() {
                           
     }
     advise.innerHTML+=`<div class="col-lg-3"></div>`;
+  });
+}
+function addExecutive() {
+  let advise = document.getElementById("executive");
+  onValue(advisor, function (snapshot) {
+    let advisors = Object.values(snapshot.val());
+    let newAdvisors = Object.values(advisors[0]);
+    for (let i = 0; i < newAdvisors.length; i++) {
+      advise.innerHTML += `<div class="col-lg-3">
+                            <div class="card border-start"
+                            style="margin-top: 40px; background-image: url('img/card.png'); height: 440px; width: 340px;">
+                              <div class="text-dark-navy fw-bolder d-flex justify-content-end pe-2 pt-3">JUKTI</div>
+  
+                              <div class="d-flex justify-content-center pt-5">
+                                <div class="border border-5 border-orange me-2"></div>
+                                <img src='${newAdvisors[i]["Image"]}' height="130px" width="130px"
+                                style="border-radius: 5px; border: 5px solid orange">
+                              </div>
+  
+                              <div class="text-center p-1 m-3">
+                                <h3>${newAdvisors[i]["Name"]}</h3>
+                                <h5>${newAdvisors[i]["Position"]}</h5>
+                              </div>
+                              <div class="icons d-flex justify-content-center">
+                                <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons" class="m-1"> <img
+                                src="img/facebook.png" width="25px"></a>
+                                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" class="m-1"><img
+                                src="img/linkedin.png" width="25px"></a>
+                                <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons" class="m-1"><img
+                                src="img/instagram.png" width="25px"></a>
+                              </div>
+  
+                            </div>
+                          </div>`;
+                          
+    }
   });
 }
