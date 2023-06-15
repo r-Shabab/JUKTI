@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jukti Website</title>
+    <!-- ------Bootstrap CSS link----- -->
+    <link rel="stylesheet" href="/css/main.min.css" />
+    <link rel="stylesheet" href="css\upevent.css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\pastevent.css">
+    <link rel="stylesheet" href="css\owl.css">
+    <!-- ------GOOGLE FONTS------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Trispace&display=swap"
+      rel="stylesheet"/>
+    <!-- -------- icon ------ -->
+    <script
+      src="https://kit.fontawesome.com/6f6e8e1141.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ------CSS link----- -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-navy">
+      <div class="container-md">
+        <img src="/img/jukti_logo.png" alt="Jukti_logo" id="jukti_logo" />
+        <a class="navbar-brand text-orange fs-2 fw-bold ms-2 me-auto" href="#"
+          >JUKTI <span class="fs-6">-The Official Club of CSE</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3"
+                aria-current="page"
+                href="/home.html"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-house me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-orange fs-5 me-3" href="/upevent.html"
+                ><i class="d-inline d-lg-none fa-solid fa-calendar-check me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="/registration.html"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-user-pen me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="/aboutus.html"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-users me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 me-3" href="/contactUs.html"
+                ><i
+                  class="d-inline d-lg-none fa-solid fa-phone me-2"
+                  style="color: #f7f6ee"
+                ></i>
+                Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<main>
+    <section id="carousel-section">
+        <div class="container-fluid bg-light">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 text-center">
+              <div id="eventsSubNavbar" class="sub-navbar">
+                <!-- Content for the Events sub-navbar -->
+                <ul class="nav custom-tab flex-column flex-sm-row justify-content-center" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link  active show small-text text-sm-center text-lg-start active text-orange" id="p-events" data-toggle="tab" href="/pastevent.html"
+                      role="tab" aria-controls="home" aria-selected="false">Past Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small-text text-sm-center text-lg-start" id="u-events" data-toggle="tab" href="/upevent.html" role="tab"
+                      aria-controls="profile" aria-selected="true">Upcoming Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small-text text-sm-center text-lg-start" id="contact-tab" data-toggle="collab" href="/eventcollab.html" role="tab"
+                      aria-controls="contact" aria-selected="false">Event Collaboration</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <section class="section events" data-section="section4">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h2>Jukti's Journey</h2>
+              </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="img\Events\e1.PNG" alt="Events #1">
+                <div class="down-content">
+                  <h4>Android App Dev Training</h4>
+                  <p>Program details:
+                    Room : Gallery - 5002 (level - 4)
+                    <br>
+                    • 1st Day ( May 28, 2015 - Thursday )<br>
+                    • 2nd Day ( May 29, 2015 - Friday )<br>
+                    • 3rd Day ( May 30, 2015 - Saturday )</p>
+                  <div class="text-button-pay">
+                    <a href="#">View More <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e2.PNG" alt="Event #2">
+                <div class="down-content">
+                  <h4>Python Workshop</h4>
+                  <p>JUKTI - Offical Club of CSE brings you a series of workshop on Python<br>
+                    Date: 6th February, 2020 (Every Thursday & Saturday)</p>
+                  <div class="text-button-pay">
+                    <a href="#">view more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e3.PNG" alt="Event #3">
+                <div class="down-content">
+                  <h4>BD's Game Industry</h4>
+                  <p>Game development is all about creativity and technical skills.</p>
+                  <div class="text-button-pay">
+                    <a href="#">view more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e4.PNG" alt="Event #4">
+                <div class="down-content">
+                  <h4>Essence of Clubbing</h4>
+                  <p>The most experienced individuals shared their side of the story and conveyed messages to all the students.</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e5.PNG" alt="">
+                <div class="down-content">
+                  <h4>SPOTLIGHT</h4>
+                  <p>Our Guest Speaker for Spotlight was Mahamudul Hassan Tonmoy. Our Guest Speaker for Spotlight was Mahamudul Hassan Tonmoy</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e6.PNG" alt="">
+                <div class="down-content">
+                  <h4>Explore Engineers Hub with JUKTI</h4>
+                  <p>our Guest Speaker A.S.M. Sadman Sakib,  Founder & Director at Engineers Hub.<br>on 18th June 2021 at 8pm</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e7.PNG" alt="">
+                <div class="down-content">
+                  <h4>Startup SPECTACLE</h4>
+                  <p>Guest Speaker: Nashid Ali, Founder & CEO of CloudCreative.<br>
+                    Time:  on 21st August at 8 PM
+                  </p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e8.PNG" alt="">
+                <div class="down-content">
+                  <h4>Born to bloom</h4>
+                  <p>We are ecstatic to bring forth to you, some amazing women from different walks of life through various segments in our massive 3-day event.</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e9.PNG" alt="">
+                <div class="down-content">
+                  <h4>SETSfest</h4>
+                  <p>As we emerge from the pandemic and fully reopen our doors, we are planning to go big with “ SETSFest 2022”, a grand reopening celebration marking the start of a new era.</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more<i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e10.PNG" alt="">
+                <div class="down-content">
+                  <h4>Convene '22</h4>
+                  <p>On the 22nd of June, 2022 the annual meetup of the CSE students will take place from 2:00 pm to 7:30 pm in the IUB auditorium, speeches from the honorable guest speakers,</p>
+                  <div class="text-button-pay">
+                    <a href="#">view more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e11.PNG" alt="">
+                <div class="down-content">
+                  <h4>techFest Autumn 2022</h4>
+                  <p>he Department of Computer Science and Engineering hosts TechFest to develop students' problem-solving and critical-thinking skills in a fun atmosphere.</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img\Events\e12.PNG" alt="">
+                <div class="down-content">
+                  <h4>League of Engineers- season 1</h4>
+                  <p>Get ready for an action-packed tournament filled with exciting matches and fierce competition as teams battle it out to claim the title of football champions</p>
+                  <div class="text-button-pay">
+                    <a href="#">View more <i class="fa fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+      <!-- <section class="section video" data-section="section5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <div class="left-content">
+                <span>Subscribe to our youtube Channel</span>
+                <h4>Watch the videos and<em> Stay Updated</em></h4>
+                <p>Official youtube channel for Jukti - Club of CSE, Independent University, Bangladesh
+                  <a rel="subscribe" href="https://www.youtube.com/@jukti-clubofcseiub2356" target="_parent">Subscribe</a> and press the bell icon for update.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <article class="video-item">
+                <div class="video-caption">
+                  <h4>Born to Bloom</h4>
+                </div>
+                <figure>
+                  <a href="https://youtu.be/jD1s2GSKBis" class="play"><img src="img\Events\btb.PNG"></a>
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <footer class="bg-dark-navy text-light py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About JUKTI CSE Club</h4>
+              <p>
+                JUKTI CSE Club is a student organization dedicated to promoting
+                collaboration, innovation, and knowledge sharing among CSE
+                enthusiasts at our university.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h4>Quick Links</h4>
+              <ul class="list-unstyled quick-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Information</h4>
+  
+              <p>Email: info@jukticlub.com</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2023 JUKTI CSE Club. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p>Follow us on social media:</p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+        <script src="node_modules\bootstrap\js\src\isotope.min.js"></script>
+        <script src="node_modules\bootstrap\js\src\owl-carousel.js"></script>
+        <script src="node_modules\bootstrap\js\src\video.js"></script>
+        <script src="node_modules\bootstrap\js\src\custom.js"></script>
+      </body>
+    </html>

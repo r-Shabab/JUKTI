@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jukti Website</title>
+  <!-- ------Bootstrap CSS link----- -->
+  <link rel="stylesheet" href="/css/main.min.css" />
+  <!-- ------GOOGLE FONTS------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Trispace&display=swap"
+    rel="stylesheet" />
+  <!-- -------- icon ------ -->
+  <script src="https://kit.fontawesome.com/6f6e8e1141.js" crossorigin="anonymous"></script>
+  <!-- ------CSS link----- -->
+  <link rel="stylesheet" href="/css/upevent.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-navy">
+    <div class="container-md">
+      <img src="/img/jukti_logo.png" alt="Jukti_logo" id="jukti_logo" />
+      <a class="navbar-brand text-orange fs-2 fw-bold ms-2 me-auto" href="#">JUKTI <span class="fs-6">-The Official Club
+          of CSE</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" aria-current="page" href="/home.html"><i
+                class="d-inline d-lg-none fa-solid fa-house me-2" style="color: #f7f6ee"></i>
+              Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-orange fs-5 me-3" href="/upevent.html"><i
+                class="d-inline d-lg-none fa-solid fa-calendar-check me-2" style="color: #f7f6ee"></i>
+              Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="/registration.html"><i
+                class="d-inline d-lg-none fa-solid fa-user-pen me-2" style="color: #f7f6ee"></i>
+              Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="/aboutus.html"><i class="d-inline d-lg-none fa-solid fa-users me-2"
+                style="color: #f7f6ee"></i>
+              About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 me-3" href="/contactUs.html"><i class="d-inline d-lg-none fa-solid fa-phone me-2"
+                style="color: #f7f6ee"></i>
+              Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="bg-main-background">
+    <section id="carousel-section">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 text-center">
+            <div id="eventsSubNavbar" class="sub-navbar">
+              <!-- Content for the Events sub-navbar -->
+              <ul class="nav custom-tab flex-column flex-sm-row justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link small-text text-sm-center text-lg-start" id="past-tab" data-toggle="event"
+                  href="/pastevent.html" role="tab" aria-controls="past" aria-selected="false">Past Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active show small-text text-sm-center text-lg-start active text-orange"
+                    id="u-events" data-toggle="tab" href="/upevent.html" role="tab" aria-selected="true">Upcoming
+                    Event</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link small-text text-sm-center text-lg-start" id="contact-tab" data-toggle="collab"
+                    href="/eventcollab.html" role="tab" aria-controls="contact" aria-selected="false">Event
+                    Collaboration</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/Events/upevent1.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Events/upevent2.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="coming-soon" data-section="section3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="continer centerIt">
+              <div>
+                <h4>Join us on<em> Next Sunday</em></h4>
+                <p class="fs-5">
+                  You're invited to our upcoming orientation event where you
+                  can learn more about our club, meet fellow members, and get
+                  involved in exciting activities. Don't miss out on this
+                  opportunity to kickstart your journey with JUKTI CSE Club!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row justify-content-between">
+              <div class="col-3 bg-main-background">
+                <div class="fs-4 text-center mb-4">Days</div>
+                <div id="days" class="display-5 fw-bold text-center mb-4">
+                  00
+                </div>
+              </div>
+              <div class="col-3 bg-main-background">
+                <div class="fs-4 text-center mb-4">Hours</div>
+                <div id="hours" class="display-5 fw-bold text-center mb-4">
+                  00
+                </div>
+              </div>
+              <div class="col-3 bg-main-background">
+                <div class="fs-4 text-center mb-4">Minutes</div>
+                <div id="minutes" class="display-5 fw-bold text-center mb-4">
+                  00
+                </div>
+              </div>
+              <div class="col-3 bg-main-background">
+                <div class="fs-4 text-center mb-4">Seconds</div>
+                <div id="seconds" class="display-5 fw-bold text-center mb-4">
+                  00
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-5">
+              <div class="right-content">
+                <div class="continer centerIt">
+                  <div class="counter">
+                    <div class="days">
+                      <div class="value"></div>
+                      <span>Days</span>
+                    </div>
+
+                    <div class="hours">
+                      <div class="value"></div>
+                      <span>Hours</span>
+                    </div>
+
+                    <div class="minutes">
+                      <div class="value"></div>
+                      <span>Minutes</span>
+                    </div>
+
+                    <div class="seconds">
+                      <div class="value"></div>
+                      <span>Seconds</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="about-event-section">
+    </section> -->
+
+    <section id="guest-speakers">
+      <div class="speakers_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="serction_title_large mb-4">
+                <h3>Speakers</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="single_speaker">
+                    <div class="speaker_thumb">
+                      <img src="img\board\Sayed Al Banna - Web Master.jpg" alt="" />
+                      <div class="hover_overlay">
+                        <div class="social_icon">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-instagram"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-2 bg-main-background">
+                  <div class="speaker_details">
+                    <div class="speaker_name">
+                      <h3 class="speaker_title">Sayed Al Banna</h3>
+                      <p class="speaker_job">Web Master</p>
+                      <p class="speaker_job">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequuntur, optio! Illum, impedit! Sit ipsum
+                        voluptatibus nesciunt, minus inventore unde vel soluta
+                        corrupti a quibusdam natus voluptatem! Beatae eligendi
+                        minima laudantium!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="single_speaker">
+                    <div class="speaker_thumb">
+                      <img src="img\board\Istiaq.jpg" alt="" />
+                      <div class="hover_overlay">
+                        <div class="social_icon">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-instagram"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="speaker_details">
+                    <div class="speaker_name">
+                      <h3 class="speaker_title">Istiaq Ahmed</h3>
+                      <p class="speaker_job">Treasurer</p>
+                      <p class="speaker_job">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequuntur, optio! Illum, impedit! Sit ipsum
+                        voluptatibus nesciunt, minus inventore unde vel soluta
+                        corrupti a quibusdam natus voluptatem! Beatae eligendi
+                        minima laudantium!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark-navy text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>About JUKTI CSE Club</h4>
+          <p>
+            JUKTI CSE Club is a student organization dedicated to promoting
+            collaboration, innovation, and knowledge sharing among CSE
+            enthusiasts at our university.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled quick-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Information</h4>
+
+          <p>Email: info@jukticlub.com</p>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 JUKTI CSE Club. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>Follow us on social media:</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS link -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- --------Custom JS file--- -->
+  <script src="/app.js"></script>
+</body>
+
+</html>

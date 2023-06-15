@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #FC3;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+/* Section Contribution */
+.section.contribution {
+    background-color: #f1eded;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 30px;
+}
+
+.section.contribution .right-content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.section.contribution .top-content h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin: 0;
+}
+
+.section.contribution .top-content h6 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.section.contribution form #name,
+.section.contribution form #email,
+.section.contribution form #phone-number {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.section.contribution form #form-submit.button {
+    background-color: #f5a425;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.section.contribution form #form-submit.button:hover {
+    background-color: #f69546;
+}
+
+.section.contribution .right-content {
+    color: #1e1e1e;
+}
