@@ -1,0 +1,231 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+.nav-item a {
+  position: relative;
+  text-decoration: none;
+}
+.nav-item a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #f69546;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.nav-item a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+#jukti_logo {
+  width: 2rem;
+}
+
+/* FOOTER */
+.quick-links li {
+  margin-bottom: 8px;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #d66000;
+}
+
+/* collab */
+.collab-item {
+  padding: 40px, 30px;
+  box-shadow: 0 0 9px rgba (0, 0, 0 0.6);
+}
+.collab-item i {
+  font-size: 30px;
+  margin: 10px;
+}
+.collab-item h4 {
+  margin-bottom: 10px;
+}
+.collab-item hr {
+  width: 46px;
+  height: 3px;
+  background-color: orange;
+  margin: 0 auto;
+  border: nome;
+}
+.collab-item p {
+  padding: 30px;
+}
+
+.elevate,
+.benefit-card {
+  -webkit-box-shadow: 0px 13px 42px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 42px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 42px -20px rgba(0, 0, 0, 0.75);
+}
+
+.border-top1 {
+  margin-bottom: 1rem;
+}
+
+
+.border-line {
+  width: 5rem;
+  height: 0.3rem;
+  border-radius: 2rem;
+  background-color: #f69546;
+}
+
+.custom-shape-divider-bottom-1686588743 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686588743 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1686588743 .shape-fill {
+  fill: #ffffff;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-text {
+  color: #777;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.fixed-height {
+  height: 14rem; /* Adjust the height value as per your needs */
+}
+
+#benefits-section {
+  margin-bottom: 15rem;
+}
+
+@media (max-width: 991.98px) {
+  .elevate-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .elevate-row > div[class^="col-"] {
+    width: 100%;
+  }
+}
+
+.faq-section {
+  padding: 60px 0;
+}
+
+.section-title {
+  color: #081420;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.accordion-button {
+  background-color: #f5f5f5;
+  color: #081420;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #081420;
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #fff;
+  color: #555;
+}
+
+.faq-answer {
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.section-heading a:before {
+  width: 1px;
+  height: 50px;
+  background-color: #f69546;
+  position: absolute;
+  top: -52px;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-heading a {
+  margin-top: 50px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f69546;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #f69546;
+}
+
+.custom-shape-divider-top-1686612771 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1686612771 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1686612771 .shape-fill {
+  fill: #ffffff;
+}

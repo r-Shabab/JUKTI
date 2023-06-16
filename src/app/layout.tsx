@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from '../../components/navbar'
 import './sass/main.css'
-import '../../.next/static/css/app/styles.css'
+import './css/styles.css'
 
 const IndexPage=()=>{
   return  (
