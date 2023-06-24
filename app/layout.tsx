@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './sass/main.css'
 import './sass/main.min.css'
 import NavBar from './components/navbar'
-import {Poppins } from 'next/font/google'
-const poppins = Poppins({
-  weight: ['400', '700'],
+import {Quicksand } from 'next/font/google'
+const poppins = Quicksand({
+  // weight: ['400', '700'],
   subsets: ['latin'],
 })
 

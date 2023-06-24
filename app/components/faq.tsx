@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Collapse } from "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+import { Collapse } from "../../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 const FAQSection = () => {
   useEffect(() => {
