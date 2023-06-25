@@ -3,7 +3,7 @@ import './sass/main.css'
 import './sass/main.min.css'
 import NavBar from './components/navbar'
 import {Quicksand } from 'next/font/google'
-const poppins = Quicksand({
+const quicksand = Quicksand({
   // weight: ['400', '700'],
   subsets: ['latin'],
 })
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={quicksand.className}>
         <div className="sticky-top "><NavBar /></div>
         <div>{children}</div>    
       </body>
