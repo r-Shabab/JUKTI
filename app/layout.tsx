@@ -1,6 +1,4 @@
 import './globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap/dist/js/bootstrap.js'
 import './sass/main.css'
 import './sass/main.min.css'
 import NavBar from './components/navbar'

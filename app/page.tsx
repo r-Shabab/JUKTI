@@ -2,7 +2,6 @@
 import React from "react";
 import { useEffect } from "react";
 import "./globals.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./sass/main.css";
 import "./sass/main.min.css";
 import ElevatedSection from "./components/elevated";
