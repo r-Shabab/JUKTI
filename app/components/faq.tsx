@@ -6,7 +6,7 @@ const FAQSection = () => {
   return (
     <section className="faq-section">
       <div className="container">
-        <h2 className="section-title display-6 fw-bold text-center">
+        <h2 className="section-title display-5 fw-bold text-center mb-3">
           Frequently Asked Questions
         </h2>
         <Accordion id="faqAccordion">

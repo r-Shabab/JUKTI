@@ -34,7 +34,7 @@ const Home = () => {
       }
       // -------UPCOMMING EVENT TIMER------------
       // Set the date and time of the upcoming event
-      const eventDate = new Date("2023-06-17T00:00:00Z").getTime();
+      const eventDate = new Date("2023-07-17T00:00:00Z").getTime();
 
       // Update the countdown every second
       setInterval(function () {
