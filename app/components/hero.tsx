@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <section
-      className="hero text-main-background py-5 ps-3 ps-sm-0"
+      className="hero text-main-background py-5"
       style={{
         position: "relative",
         backgroundColor: "#081420",
@@ -21,16 +21,13 @@ const HeroSection = () => {
           ></path>
         </svg>
       </div>
-      <div className="container py-4 py-sm-1 py-sm-5">
+      <div className="container py-5">
         <div className="row align-items-center py-5">
           <div className="col-lg-6 p-0">
             <div className="hero-text pb-5">
-              <h1 className="display-3 fw-bold mb-3">
+              <h1 className="display-3">
                 JUKTI{" "}
-                <span className="display-6 d-block d-md-inline">
-                  <span className="d-none d-md-inline">-</span>The Official Club
-                  of CSE
-                </span>
+                <span className="display-6">-The Official Club of CSE</span>
               </h1>
               <p className="lead">
                 <span className="text-orange"> JUKTI </span> is the
@@ -39,7 +36,7 @@ const HeroSection = () => {
               </p>
               <a
                 href="#"
-                className="btn btn-dark-navy btn-lg btn-outline-orange me-4 mt-1 mt-sm-0"
+                className="btn btn-dark-navy btn-lg btn-outline-orange me-4"
               >
                 Register now!
               </a>
@@ -48,7 +45,7 @@ const HeroSection = () => {
           <div className="col-lg-6 p-0 ps-4">
             <div className="hero-image text-center d-none d-lg-block">
               <img
-                src="/img/jukti_logo.webp"
+                src="/img/jukti_logo.png"
                 alt="Hero Image"
                 className="img-fluid mb-5"
                 style={{ width: "30%" }}

@@ -1,4 +1,5 @@
 import './globals.css'
+import './sass/main.css'
 import './sass/main.min.css'
 import NavBar from './components/navbar'
 import {Quicksand } from 'next/font/google'
